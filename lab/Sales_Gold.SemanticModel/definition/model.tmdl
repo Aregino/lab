@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	collation: Latin1_General_100_BIN2_UTF8
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.140.7567.2 (Main)+00b9d5349606b9b9f9c025534bd2c34eaa001a13
+
+annotation PBI_QueryOrder = ["DatabaseQuery"]
+
+annotation __PBIService_Versioning_SaveVersion = cd0426b9-0be2-4ee7-b7a7-d1f9f24a2a83
+
+annotation PBI_ProTooling = ["WebModelingEdit"]
+
+ref table dimdate_gold
+ref table dimcustomer_gold
+ref table dimproduct_gold
+ref table factsales_gold
+
+ref cultureInfo en-US
+

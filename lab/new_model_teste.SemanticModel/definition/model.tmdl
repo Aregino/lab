@@ -1,0 +1,29 @@
+model Model
+	culture: en-US
+	collation: Latin1_General_100_BIN2_UTF8
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.141.7580.2 (Main)+24548bd84552ba7530958760db7f771c936f16ba
+
+annotation PBI_QueryOrder = ["DatabaseQuery"]
+
+annotation __PBIService_Versioning_SaveVersion = 63dc4d2b-9bc8-404c-8673-1a3619541cc5
+
+annotation PBI_ProTooling = ["WebModelingEdit"]
+
+ref table Date
+ref table HackneyLicense
+ref table Geography
+ref table Trip
+ref table Time
+ref table Medallion
+ref table Weather
+
+ref cultureInfo en-US
+

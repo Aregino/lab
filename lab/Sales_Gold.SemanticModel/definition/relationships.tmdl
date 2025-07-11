@@ -1,0 +1,12 @@
+relationship 84fc3305-32e2-a2f0-564c-7fbbba57d20b
+	fromColumn: factsales_gold.ItemID
+	toColumn: dimproduct_gold.ItemID
+
+relationship 4f28dd5b-8340-26ba-895f-647f2581c82b
+	fromColumn: factsales_gold.CustomerID
+	toColumn: dimcustomer_gold.CustomerID
+
+relationship 18e6998f-614f-8e85-05c0-dd6ccf9dee0d
+	fromColumn: factsales_gold.OrderDate
+	toColumn: dimdate_gold.OrderDate
+
