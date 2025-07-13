@@ -23,7 +23,7 @@ DAG = {
     "activities": [
         {
             "name": "DAG_01",  # Nome único da atividade
-            "path": "DAG_01",  # Caminho correto do notebook
+            "path": "DAG_01",  # Caminho correto do notebook (no fabric o mesmo nome se estiver no mesmo workspace)
             "timeoutPerCellInSeconds": 90,  # Timeout de cada célula
             "args": {"name": "parametro_aceito"}  # Parâmetros do notebook
         },
@@ -40,7 +40,7 @@ DAG = {
 }
 
 # Executando a DAG com mssparkutils
-mssparkutils.notebook.runMultiple(DAG)
+mssparkutils.notebook.runMultiple(DAG, {"displayDAGViaGraphviz": True})
 
 # METADATA ********************
 
