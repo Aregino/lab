@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Warehouse",
-    "displayName": "dp700-dw"
+    "type": "Lakehouse",
+    "displayName": "dp700_spark"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "4b31ba19-9824-9a93-4877-f13952d279cf"
+    "logicalId": "c2e15333-a0f2-9c2b-4b4d-78a924e112c8"
   }
 }

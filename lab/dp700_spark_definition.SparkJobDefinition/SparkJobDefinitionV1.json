@@ -1,0 +1,11 @@
+{
+  "executableFile": "createTablefromParquet.py",
+  "defaultLakehouseArtifactId": "24e112c8-78a9-4b4d-9c2b-a0f2c2e15333",
+  "mainClass": "",
+  "additionalLakehouseIds": [],
+  "retryPolicy": null,
+  "commandLineArguments": "",
+  "additionalLibraryUris": [],
+  "language": "Python",
+  "environmentArtifactId": null
+}

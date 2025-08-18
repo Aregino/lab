@@ -1,0 +1,33 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "dp700_gen2",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "gatewayObjectId": "4b5f4aa8-c95c-42f8-8c43-2861604e1e63",
+  "queriesMetadata": {
+    "orders": {
+      "queryId": "9ac28fec-cb3a-4fd1-8213-95b168300a15",
+      "queryName": "orders",
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "044dbb01-bd1c-41e9-90af-06b27f3eb303",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/orders.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"ae40d6ee-d2ab-4cf4-9d9b-4dd898594997\",\"DatasourceId\":\"99e24471-6014-4ae8-accf-f57a26681667\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"4b5f4aa8-c95c-42f8-8c43-2861604e1e63\",\"DatasourceId\":\"64b90e60-07a8-4111-bba0-c10e27fce345\"}"
+    }
+  ]
+}

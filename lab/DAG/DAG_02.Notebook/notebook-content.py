@@ -24,17 +24,8 @@ df = spark.read.format("csv").option("header","true").load("Files/new_data/sales
 df.write.format("csv") \
     .option("header", "true") \
     .option("delimiter", ",") \
+    .mode("overwrite") \
     .save(f'Files/new_data/dag/{name}.csv')
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
-
 
 # METADATA ********************
 

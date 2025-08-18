@@ -1,11 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Warehouse",
-    "displayName": "dp700-dw"
+    "type": "Notebook",
+    "displayName": "Notebook 6",
+    "description": "New notebook"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "4b31ba19-9824-9a93-4877-f13952d279cf"
+    "logicalId": "ceb750e6-8db3-b501-4c1a-725065471cf3"
   }
 }

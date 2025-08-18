@@ -1,11 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Warehouse",
-    "displayName": "dp700-dw"
+    "type": "Notebook",
+    "displayName": "dp700_spark_1",
+    "description": "New notebook"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "4b31ba19-9824-9a93-4877-f13952d279cf"
+    "logicalId": "fcc46149-d6fa-86e2-4823-715176ef27b7"
   }
 }
