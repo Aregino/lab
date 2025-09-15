@@ -1324,6 +1324,226 @@
         ]
       },
       {
+        "name": "EmployeeDataDataMask",
+        "sourceLineageTag": "[dbo].[EmployeeDataDataMask]",
+        "columns": [
+          {
+            "name": "EmployeeID",
+            "dataType": "int64",
+            "sourceColumn": "EmployeeID",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "sourceLineageTag": "EmployeeID",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "FirstName",
+            "dataType": "string",
+            "sourceColumn": "FirstName",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "FirstName",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LastName",
+            "dataType": "string",
+            "sourceColumn": "LastName",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "LastName",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SSN",
+            "dataType": "string",
+            "sourceColumn": "SSN",
+            "sourceProviderType": "char",
+            "sourceLineageTag": "SSN",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "email",
+            "dataType": "string",
+            "sourceColumn": "email",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "email",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "datanasc",
+            "dataType": "dateTime",
+            "sourceColumn": "datanasc",
+            "formatString": "General Date",
+            "sourceProviderType": "date",
+            "sourceLineageTag": "datanasc",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "{{Partition_Name}}",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "EmployeeDataDataMask",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "IsTableInBiModel",
+            "value": "False"
+          }
+        ]
+      },
+      {
+        "name": "EmployeeDataMask",
+        "sourceLineageTag": "[dbo].[EmployeeDataMask]",
+        "columns": [
+          {
+            "name": "EmployeeID",
+            "dataType": "int64",
+            "sourceColumn": "EmployeeID",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "sourceLineageTag": "EmployeeID",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "FirstName",
+            "dataType": "string",
+            "sourceColumn": "FirstName",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "FirstName",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LastName",
+            "dataType": "string",
+            "sourceColumn": "LastName",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "LastName",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SSN",
+            "dataType": "string",
+            "sourceColumn": "SSN",
+            "sourceProviderType": "char",
+            "sourceLineageTag": "SSN",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "email",
+            "dataType": "string",
+            "sourceColumn": "email",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "email",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "datanasc",
+            "dataType": "dateTime",
+            "sourceColumn": "datanasc",
+            "formatString": "General Date",
+            "sourceProviderType": "date",
+            "sourceLineageTag": "datanasc",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "{{Partition_Name}}",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "EmployeeDataMask",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "IsTableInBiModel",
+            "value": "False"
+          }
+        ]
+      },
+      {
         "name": "EmployeeData",
         "sourceLineageTag": "[dbo].[EmployeeData]",
         "columns": [
@@ -1786,6 +2006,58 @@
           {
             "name": "IsTableInBiModel",
             "value": "True"
+          }
+        ]
+      },
+      {
+        "name": "Tabela_Controle",
+        "sourceLineageTag": "[dbo].[Tabela_Controle]",
+        "columns": [
+          {
+            "name": "schema_nome",
+            "dataType": "string",
+            "sourceColumn": "schema_nome",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "schema_nome",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "tabela_nome",
+            "dataType": "string",
+            "sourceColumn": "tabela_nome",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "tabela_nome",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "{{Partition_Name}}",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "Tabela_Controle",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "IsTableInBiModel",
+            "value": "False"
           }
         ]
       },

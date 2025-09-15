@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Reflex",
+    "displayName": "totorialAlerta"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "693b38f9-46e6-8e8d-4c5d-e3540218ef45"
+  }
+}

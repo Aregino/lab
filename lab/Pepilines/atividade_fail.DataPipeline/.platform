@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "atividade_fail"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "08f3ed27-72aa-b647-49c1-6f917d9b4f42"
+  }
+}

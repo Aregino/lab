@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "MLModel",
+    "displayName": "model-diabetes",
+    "description": ""
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4b56931c-2640-929a-4c33-e0f9abf66c60"
+  }
+}
